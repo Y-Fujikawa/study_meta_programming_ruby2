@@ -1,0 +1,10 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - ./chapter_1/test.rb
+
+# 日本語のコメントを許可する
+Style/AsciiComments:
+  Enabled: false
